@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title> CSS Grides</title>
+        <style>
+            h1{
+                text-align: center;
+                text-decoration: underline;
+                background: linear-gradient(to right,rgb(228, 5, 5),rgb(128, 128, 237));
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            .parent{
+                background: grey;
+                display: grid;
+                grid-template-columns: 100px 100px 100px;   
+                padding: 20px;
+                gap: 10px;
+               
+            }
+            .child{
+                background: yellow;
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                box-shadow: 0px 3px 5px black;
+            
+            }
+            .child:hover{
+                background: red;
+            }
+            .child img{
+                width: 100px;
+                height: 100px;
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1> CSS Grides</h1>
+        <div class="parent">
+            <div class="child">
+                <img src="C:\FFT\images\bike\bike-909690_1280.jpg"alt="pic">
+            </div>
+            
+             <div class="child">
+                <img src="C:\FFT\images\bike\bike-7622369_1280.jpg" alt="pic">
+             </div>
+              <div class="child">
+                <img src="C:\FFT\images\bike\bike-8038916_1280.jpg" alt="pic">
+              </div>
+               <div class="child">
+                <img src="C:\FFT\images\bike\motorbike-7433291_1280.jpg" alt="pic">
+               </div>
+                <div class="child">
+                    <img src="C:\FFT\images\bike\motorcycle-7396190_1280.jpg" alt="pic">
+                </div>
+                 <div class="child">
+                    <img src="C:\FFT\images\bike\scooter-4025114_1280.jpg" alt="pic">
+                 </div>
+
+        </div>
+    </body>
+</html>
