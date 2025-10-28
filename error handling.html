@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Error handling in JavaScript</title>
+    </head>
+    <body>
+        <h1>Error handling in JavaScript</h1>  <!---error,exception, annamoli both same-->
+        <script>
+
+            // try{
+            // let a = x;
+            // console.log(x);
+
+            // }catch(error){
+            //         console.log("error is solved:"+error.message);
+            // }finally{
+            //         console.log("Done!!")
+            // }
+
+
+            // function CheckAge(age){
+            //     if(age<18){
+            //         throw new Error("age must be greater than 18..!!")
+
+
+            //     }
+            //     return"granted access!"
+
+            // };
+            // try{
+            //     console.log(CheckAge(20));
+            // }catch(error){
+            //     console.log("Error:"+error.message);
+                
+            // }finally{
+            //     console.log("checked")
+            // };
+
+
+    function CheckGender(gender) {
+    if (gender === "male") {
+        console.log("boy");
+    } else if (gender === "female") {
+        console.log("girl");
+    } else {
+        console.log("unknown gender");
+    }
+
+    try {
+        console.log(CheckGender); // This will log the function definition
+    } catch (error) {
+        console.log("Error: " + error.message);
+    } finally {
+        console.log("checked");
+    }
+}
+        </script>
+    </body>
+</html>
