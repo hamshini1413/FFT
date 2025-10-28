@@ -1,0 +1,136 @@
+<!--conditional statement is also known as braching statement-->
+
+<html>
+    <head>
+        <title>conditional statements</title>     <!--there are 3 types of condition if, if else, nested if-->
+    </head>
+    <body>
+        <h1>Conditional statements in JS</h1>
+        <script>
+            //let a = Number(prompt("Enter a number"));   // we can also give direct value also "like let a = 20;"
+
+            // if statement
+
+            // if(a != 100){
+            //     document.write("A is true");
+            //     console.log("A is true");
+            // }else{
+            //     document.write("A is false");
+            //     console.log("A is false");
+            // };
+
+            // if else if statement or nested if statement
+
+            // if(a != 100){
+            //     document.write("A is to 100");
+            //     console.log("A is to 100");
+            // }else if(a == 100){                       // else if is used to check another condition
+            //                                           // here else is optional, else if is work on else part
+            //     document.write("A equals to 100");
+            //     console.log("A equals to 100");
+            // }else{
+            //     document.write("nothing");
+            //     console.log("nothing");
+            // };
+            // if (a > 0){
+            //     document.write("A is positive");
+            //     console.log("A is positive");
+            // }else if(a < 0){
+            //     document.write("A is negative");
+            //     console.log("A is negative");
+            // }else{
+            //     document.write("A is zero");
+            //     console.log("A is zero");
+            // };
+
+
+            // Switch case
+            // let num = Number(prompt("Enter a number"));
+            // switch(num){
+            //     case 1:
+            //         document.write("Number one")
+            //         console.log("Number one")
+            //         break;
+            //     case 2:
+            //         document.write("Number two")
+            //         console.log("Number two")
+            //         break;
+            //     case 3:
+            //         document.write("Number three")
+            //         console.log("Number three")
+            //         break;
+            // }
+
+            // let num = Number(prompt("Enter a number between 1 to 7"));
+            // switch(num){
+            //     case 1:
+            //         document.write("Today is Monday")
+            //         console.log("Today is Monday")
+            //         break;
+            //     case 2:
+            //         document.write("Today is Tuesday")
+            //         console.log("Today is Tuesday")
+            //         break;
+            //     case 3:
+            //         document.write("Today is Wednesday")
+            //         console.log("Today is Wednesday")
+            //         break;
+            //     case 4:
+            //         document.write("Today is Thursday")
+            //         console.log("Today is Thursday")
+            //         break;
+            //     case 5:
+            //         document.write("Today is Friday")
+            //         console.log("Today is Friday")
+            //         break;
+            //     case 6:
+            //         document.write("Today is Saturday")
+            //         console.log("Today is Saturday")
+            //         break;
+            //     case 7:
+            //         document.write("Today is Sunday")
+            //         console.log("Today is Sunday")
+            //         break;
+            // }
+
+
+            //Looping statement
+            // it is used to execute a block of code multiple times until the condition is false
+
+            // for(let i = 1; i <= 5; i++){
+            //     document.write(i," ","This is for loop","<br>");
+            //     console.log(i,"This is for loop");
+            // }
+
+
+            // While loop
+            // First it will check the condition then it will execute the block of code
+            // it execute the block of code until the condition is true
+            // let s = 0;
+            // while(s < 5){
+            //     console.log("count-while",s);
+            //     document.write("count-while"," ",s,"<br>");
+            //     s++;
+            // }
+
+            // do while loop
+            // First it will execute the block of code once then it will check the condition
+            // let k = 0;
+            // do{
+            //     console.log("count-do while",k);
+            //     document.write("count-do while"," ",k,"<br>");
+            //     k++;
+            // }while(k < 5);
+
+
+            // Simple Interest
+
+            let p = Number(prompt("Enter a amount"));
+            let t = Number(prompt("Enter a time of months"));
+            let r = Number(prompt("Enter rate of interest"));
+            let total_amt = (p * t * r) / 100;
+            document.writeln("Total amount is :",total_amt);
+
+        </script>
+    </body>
+</html>
